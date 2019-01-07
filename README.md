@@ -1,7 +1,7 @@
 cppmagic
 ========
 
-A simple IPython extension that runs C++ code and shows the output. Supports command-line input to g++.
+A simple IPython/Jupyter extension that runs C++ code and shows the output. Supports command-line input to g++.
 
 Example output
 --------------
@@ -16,9 +16,9 @@ Simply download and try the example.ipynb notebook that you'll find in the root 
 Usage
 -----
 
-Run the following commands in one cell. This will download the cppmagic module and load it.
+Run the following commands in one cell. This will download the nb_cppmagic module and load it.
 
-    %install_ext https://raw.github.com/dragly/cppmagic/master/cppmagic.py
+    %pip install https://github.com/dragly/cppmagic
     %load_ext cppmagic
     
 Then create a new cell like this:

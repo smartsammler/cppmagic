@@ -11,7 +11,7 @@
 # The full license is in the file COPYING.txt, distributed with this software.
 #-----------------------------------------------------------------------------
 
-from __future__ import print_function
+__version__ = '0.2'
 
 import io
 import os

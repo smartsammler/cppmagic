@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "nb_cppmagic"
+author = "Svenn-Arne Dragly"
+author-email = "s@dragly.com"
+home-page = "https://github.com/dragly/cppmagic"
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+
